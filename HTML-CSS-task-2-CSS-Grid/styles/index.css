@@ -1,0 +1,47 @@
+header,
+.content-section,
+.sidebar,
+nav,
+footer {
+  border: 2px solid black;
+  
+  display: grid;
+  justify-items: center;
+  align-items: center;
+
+  margin-left: 5px;
+  margin-right: 5px;
+}
+
+header {
+  margin-top: 5px;
+  margin-bottom: 5px;
+
+  height: 10vh;
+}
+
+nav {
+  height: 6vh;
+  margin-bottom: 5px;
+}
+
+.main-section {
+  display: grid;
+  grid-template-columns: 3fr 1fr;
+  grid-gap: 10px;
+  justify-items: center;
+
+  height: 70vh;
+  margin-bottom: 10px;
+  padding: 0 5px;
+}
+
+.content-section,
+.sidebar {
+  width: 100%;
+  height: inherit;
+}
+
+footer {
+  height: 8vh;
+}

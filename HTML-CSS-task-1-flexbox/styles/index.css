@@ -1,0 +1,39 @@
+header,
+nav,
+.content-section,
+.sidebar,
+footer {
+  margin: 5px;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  border: 2px solid black;
+}
+
+header {
+  min-height: 10vh;
+}
+
+nav {
+  min-height: 6vh;
+}
+
+.main-section {
+  display: flex;
+  min-height: 70vh;
+}
+
+.content-section {
+  flex: 70%;
+}
+
+.sidebar {
+  flex: 30%;
+  margin-left: 0;
+}
+
+footer {
+  min-height: 8vh;
+}
